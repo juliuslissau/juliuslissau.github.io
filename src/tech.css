@@ -1,0 +1,36 @@
+.tech {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 25px;
+  font-size: 0.95em;
+  font-weight: 700;
+}
+
+.iconContainer {
+  padding: 6px;
+  padding-bottom: 1px;
+  border-radius: 4px;
+}
+
+.tech span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+@media (min-width: 600px) {
+  .tech {
+    width: 33.33%;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+  }
+
+  .iconContainer {
+    padding: 10px;
+    padding-bottom: 6px;
+  }
+  
+  .tech span {
+    margin-left: 15px;
+  }
+}

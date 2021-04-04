@@ -1,0 +1,96 @@
+.portfolioItem {
+  padding: 60px 0;
+  margin-bottom: 60px;
+}
+
+.portfolioItemInner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.portfolioImage {
+  width: 100%;
+  display: flex;
+}
+
+.portfolioImage img{
+  max-height: 300px;
+  margin: 0 auto 30px;
+  align-self: center;
+}
+
+.portfolioText {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.portfolioText h4 {
+  margin-bottom: 30px;
+}
+
+.featureHeadline {
+  font-weight: 700;
+  color: #626262;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.features {
+  font-size: 16px;
+  list-style: none;
+}
+
+.features li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 6px;
+}
+
+.features li:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  color: grey;
+  background: url("./images/checkmark.svg") center;
+  background-size: cover;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 700px) {
+  .portfolioItem {
+    padding: 120px 0;
+    margin-bottom: 90px;
+  }
+  
+  .portfolioItemInner {
+    flex-wrap: nowrap;
+  }
+
+  .portfolioImage {
+    width: 50%;
+    display: block;
+  }
+
+  .portfolioImage img{
+    max-height: inherit;
+    margin: 0;
+  }
+  
+  .portfolioText {
+    width: 50%;
+    padding: 40px;
+    margin-left: 50px;
+  }
+
+  .featureHeadline {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+}
