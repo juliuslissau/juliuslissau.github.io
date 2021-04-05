@@ -63,7 +63,7 @@ export default function Home() {
       <PortfolioItem
         image={elevpraktikRender}
         color="#5b8c8e"
-        title="Danmarks largest platform for early internships and jobs"
+        title="Denmarks largest platform for early internships and jobs"
         website="https://elevpraktik.dk"
         features={[
           "Advanced sign-up and admin panel",
