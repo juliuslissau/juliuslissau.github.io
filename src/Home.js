@@ -63,12 +63,11 @@ export default function Home() {
       <PortfolioItem
         image={elevpraktikRender}
         color="#5b8c8e"
-        title="Danmarks largest platform for short internships"
+        title="Danmarks largest platform for early internships and jobs"
         website="https://elevpraktik.dk"
         features={[
           "Advanced sign-up and admin panel",
-          "Infinite scroll and AJAX filtering",
-          "Custom Google Maps integration",
+          "Infinite scroll and instant filtering",
           "Several user roles",
           "SEO: Ranks #1 on Google",
         ]}
@@ -102,9 +101,10 @@ export default function Home() {
         title="Hybrid property-rental platform"
         website="https://cribs.dk"
         features={[
-          "Hybrid code",
+          "Hybrid code – run on both web and mobile",
+          "Live chat between users",
           "Single-page applicaiton",
-          "Progressive Web App",
+          "Advanced search and filtering",
         ]}
       />
       <div className="container">
@@ -114,7 +114,7 @@ export default function Home() {
             <p className="mbl">
               These are the programming languages, frameworks, databases and
               CMSs I'm experienced in using. I'm a fast learner, so even if your
-              projects requires another skill than listed below, feel free to
+              project requires another skill than listed below, feel free to
               contact me anyway.
             </p>
           </div>

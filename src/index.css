@@ -23,8 +23,12 @@ a {
   color: inherit;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
 }
 
 h1,
@@ -58,7 +62,7 @@ h4 {
   h1 {
     font-size: 40px;
   }
-  
+
   h3 {
     font-size: 40px;
   }
@@ -72,10 +76,6 @@ h4 {
   h1 {
     font-size: 50px;
   }
-}
-
-img {
-  max-width: 100%;
 }
 
 .mbxs {
@@ -97,8 +97,8 @@ img {
   margin-bottom: 60px;
 }
 
-@media (min-width: 1700px) {
-  .outer{
+@media (min-width: 1900px) {
+  .outer {
     display: flex;
     margin-top: 90px;
     margin-bottom: 90px;
@@ -106,10 +106,10 @@ img {
 
   .outerContainer {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1600px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 40px rgba(0,0,0,0.2);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     overflow: hidden;
   }
@@ -127,6 +127,12 @@ img {
   .container {
     width: 95%;
     padding: 0;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1200px;
   }
 }
 

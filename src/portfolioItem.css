@@ -1,6 +1,6 @@
 .portfolioItem {
   padding: 60px 0;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .portfolioItemInner {
@@ -66,7 +66,7 @@
 @media (min-width: 700px) {
   .portfolioItem {
     padding: 120px 0;
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
   }
   
   .portfolioItemInner {
@@ -92,5 +92,12 @@
   .featureHeadline {
     font-size: 20px;
     margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .portfolioText {
+    /* padding: 40px; */
+    margin-left: 120px;
   }
 }
