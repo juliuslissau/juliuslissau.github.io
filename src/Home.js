@@ -15,6 +15,7 @@ import {
   ReactJs,
   Ionic,
   Tailwindcss,
+  NextDotJs,
 } from "@icons-pack/react-simple-icons";
 import "./home.css";
 import portrait from "./images/julius.png";
@@ -142,6 +143,9 @@ export default function Home() {
             </Tech>
             <Tech text="Ionic" color="#3880FF">
               <Ionic size={22} color="#fff" />
+            </Tech>
+            <Tech text="Next.js" color="#000">
+              <NextDotJs size={22} color="#fff" />
             </Tech>
             <Tech text="Node.js" color="#339933">
               <NodeDotJs size={22} color="#fff" />
